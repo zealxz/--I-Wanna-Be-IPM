@@ -1,0 +1,17 @@
+[启动应用]
+   ↓
+[界面1：身份选择 ScreenSelectRole]
+   ├─→ “我是高手” → [界面2：登录 ScreenLogin]
+   └─→ “我是小白” → [界面3：帮助教学 ScreenHelp]
+                              ↓
+                     “我准备好了 → 去登录”
+                              ↓
+                     [界面2：登录 ScreenLogin]
+                              ↓（验证通过）
+                     [界面4：上传 ScreenUpload]
+                              ↓（检测文件夹）
+                     [CommonModal 弹窗（缺README/.gitignore）]
+                              ↓（确认自动生成）
+                          [执行上传 → 显示结果]
+                              ↓
+                     [上传成功 → 提示“完成/再传一个项目”]
